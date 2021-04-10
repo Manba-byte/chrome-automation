@@ -1,10 +1,10 @@
 public static void main(String[] args) {
         String webDriver = "webdriver.chrome.driver";
         String webDriverPath = ClassUtils.getDefaultClassLoader().getResource("chrome/chromedriver.exe").getPath();
-        String mobileUrl = "https://oauth.aliexpress.com/authorize?response_type=code&client_id=28324835&redirect_uri=https://www.aliexpress.com/&state=1212&view=web&sp=ae";
+        String mobileUrl = "https://oauth.aliexpress.com/authorize?response_type=code&client_id=xxx&redirect_uri=https://www.aliexpress.com/&state=1212&view=web&sp=ae";
         WebDriver driver = null;
-        String username = "cloudmall.inc@gmail.com";
-        String password = "32z9Fb08YCCZplpX";
+        String username = "xxxx";
+        String password = "xxxx";
         System.setProperty(webDriver, webDriverPath);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("Accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
